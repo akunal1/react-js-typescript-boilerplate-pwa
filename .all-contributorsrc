@@ -1,0 +1,29 @@
+{
+  "projectName": "react-js-typescript-boilerplate",
+  "projectOwner": "react-js-typescript-boilerplate",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "akunal1",
+      "name": "Avinash Nayak",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25885562?s=460&u=47e57d8b8e6f50a7a28937a5c86df041f6be80bb&v=4",
+      "profile": "https://github.com/akunal1",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "review",
+        "test",
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 8,
+  "commitConvention": "none"
+}

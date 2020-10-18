@@ -5,7 +5,6 @@ import { SagaInjectionModes } from 'redux-injectors';
 
 import { ContainerState as LanguageProviderState } from 'containers/LanguageProvider/types';
 import { ContainerState as AppState } from 'containers/App/types';
-import { ContainerState as HomeState } from 'containers/HomePage/types';
 // [IMPORT NEW CONTAINERSTATE ABOVE] < Needed for generating containers seamlessly
 
 export interface InjectedStore extends Store {
@@ -30,7 +29,7 @@ export interface ApplicationRootState {
   readonly router: RouterState;
   readonly global: AppState;
   readonly language: LanguageProviderState;
-  readonly home: HomeState;
+  readonly home: any;
   // [INSERT NEW REDUCER KEY ABOVE] < Needed for generating containers seamlessly
 
   // for testing purposes
